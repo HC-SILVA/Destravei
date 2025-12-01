@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Raleway:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1e30a0 16.62%, #0d91c9 85.61%);
+}
+
+.cabecalho-imagem {
+    height: 72px ;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito-titulo {
+   font-family: "New Rocker", system-ui;
+  font-weight: 400;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+
+}
+.conteudo-principal-escrito-subtitulo {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+    font-size: 24px;
+    color: rgba(205, 223, 252, 0.881);
+   text-align:center;
+}
+
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #fff;
+    padding-top: 48px;
+    font-family: 'Righteous'; 
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo {
+   font-family: "New Rocker", system-ui;
+  font-weight: 400;
+    font-size: 24px;
+    color:rgba(132, 178, 218, 0.941);
+   text-align: left;
+     
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.grid-2 .coluna-1 {
+    border-radius: 5px;
+    background: #c2d6f6;
+}
+.grid-2 .coluna-2 {
+    border-radius: 5px;
+    background: #9acce7;
+    box-shadow: 0px 0px 10px #333
+}
+.grid-2 .coluna-1, .grid-2 .coluna-2{
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0px 0px 10px #333
+}
+
+
+
+.rodape {
+    padding: 32px;
+     border-top: 0.4px solid #fff;
+     text-align: center;
+     font-family: "New Rocker", system-ui;
+  font-weight: 400;
+    font-size: 24px;
+     color: rgb(0, 0, 0);
+    
+}
+
+
+@media (min-width: 480px)and (max-width:1200px) {
+    
+    header { 
+    text-align: center;
+    display:flex;
+    }
+   
+    
+.rodape-mobile {
+    color: #fff;
+}
+
+   
+}

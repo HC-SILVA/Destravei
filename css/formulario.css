@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Raleway:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap');
+label{
+    font-weight: bold;
+}
+.cabecalho-imagem {
+    height: 72px ;
+    
+}
+/* Container do formulário */
+#form-cadastro {
+    width: 100%;
+    margin: 0px auto;
+    padding: 25px;
+    border-radius: 12px;
+    background: linear-gradient(68.15deg, #3a5bd9 16.62%, #5dc5f0 85.61%);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+#form-cadastro label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+.formulario, 
+#form-cadastro input[type="radio"], 
+#form-cadastro textarea {
+    margin-bottom: 15px;
+}
+
+/* Inputs e textarea */
+.formulario, 
+#form-cadastro textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.9);
+    color: #333;
+    font-size: 1rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.formulario:focus, 
+#form-cadastro textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #5dc5f0;
+}
+
+/* Botões */
+.btn-submit, .btn-reset {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-submit {
+    background-color: green;
+    color: #fff;
+}
+
+.btn-submit:hover {
+    background-color: #b1e4a7;
+    color:  green;
+}
+
+.btn-reset {
+     background: red;
+    color:  #fff;
+}
+
+.btn-reset:hover {
+    background-color: #e09e9e;
+    color: red
+}
+
+/* Mensagem de sucesso */
+#mensagem-sucesso {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rodape {
+    padding: 32px;
+     border-top: 0.4px solid #ffffff;
+     text-align: center;
+     font-family: "New Rocker", system-ui;
+  font-weight: 400;
+    font-size: 24px;
+     color: rgb(0, 0, 0);
+    
+}
